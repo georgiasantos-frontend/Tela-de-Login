@@ -5,6 +5,7 @@
 <h2> 💻Tecnologias utilizadas:</h2>
 <p>- HTML</p>
 <p>-CSS</p>
+<br>
 
-<img src="">
+<img src="https://github.com/georgiasantos-frontend/Tela-de-Login/blob/master/imagens/img.png?raw=true" widht="300">
 
