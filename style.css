@@ -8,7 +8,43 @@
 body {
     display: flex;
     justify-content: center;
-    background-color:  #0A0A10;
+    background-color: #0A0A10;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #ffffff;
+}
+
+.header1,
+.header2,
+.header3 {
+    margin-right: 7px;
+    width: 20px;
+    height: 13px;
+}
+
+.header1 {
+    width: 18.77px;
+    height: 10.67px;
+}
+
+.header2 {
+    width: 16.93px;
+    height: 11px;
+}
+
+.header3 {
+    width: 24.33px;
+    height: 11.33px;
+    border: 1px solid #FFFFFF;
+}
+
+.paragrafo-header {
+    padding-right: 300px;
+    width: 54px;
+    height: 21px;
 }
 
 main {
@@ -32,13 +68,15 @@ h1 {
 
 .blur {
     width: 360px;
-    height: 280px;
+    height: 290px;
     background: #ffffff;
     position: absolute;
     z-index: -1;
     opacity: 0.25;
     filter: blur(24px);
     border-radius: 100px;
+    margin-top: 60px;
+
 
 }
 
@@ -95,95 +133,95 @@ input::placeholder {
     font-family: Roboto;
 
     font-size: 17px;
-font-weight: 900;
-line-height: 3px;
-color: #ffffff;
-border: none;
+    font-weight: 900;
+    line-height: 3px;
+    color: #ffffff;
+    border: none;
 
-display: flex;
-align-items: center;
-justify-content: center;
-transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
 }
 
-.btn-login:hover{
+.btn-login:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.btn-login:active{
+.btn-login:active {
     opacity: 0.8;
-    }
+}
 
-i{
+i {
     font-size: 22px;
     font-weight: 900;
     line-height: 3px;
 }
 
-.btn-google{
+.btn-google {
     width: 100%;
-    height: 68px; 
+    height: 68px;
     border: none;
     display: flex;
-align-items: center;
-justify-content: center;
-transition: 0.3s ease;
- background: #FFFFFF24;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    background: #FFFFFF24;
 
-font-size: 17px;
-font-weight: 900;
-line-height: 3px;
-color: #ffffff;
-gap: 12px;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 3px;
+    color: #ffffff;
+    gap: 12px;
 }
 
-.btn-google:hover{
+.btn-google:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.btn-google:active{
+.btn-google:active {
     opacity: 0.8;
-    }
+}
 
-    .container-link{
-        position: relative;
-        margin-top: 20px;
-    }
-
-
-    a{
-font-size: 14px;
-font-weight: 900;
-line-height: 16px;
-color:rgba(255, 255, 255, 0.6) ;
-text-decoration: none;
+.container-link {
+    position: relative;
+    margin-top: 20px;
+}
 
 
-    }
+a {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 
-    a::after{
-       content:""; 
-       width: 0;
-       height: 2px;
-       position: absolute;
-       background:  #D93856;
-       bottom: 0;
-       left: 0;
-       transition: 0.3s ease;
-    }
 
-    a:hover::after{
-        content:""; 
-        width: 100%;
-        height: 2px;
-        position: absolute;
-        background:  #D93856;
-        bottom: 0;
-        left: 0;
-     }
+}
 
-    span{
-        color: #ffffff;
-    }
+a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background: #D93856;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+a:hover::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: #D93856;
+    bottom: 0;
+    left: 0;
+}
+
+span {
+    color: #ffffff;
+}
